@@ -1,0 +1,853 @@
+
+header {
+position: fixed;
+top:0;
+left:0;
+width:100%;
+height:60px;
+background-color: white;
+display: flex;
+z-index: 100;
+padding: 10 30px;
+align-items: center;
+}
+
+header a {
+color:#000; 
+text-decoration: none;
+font-size: 12px;
+}
+
+.logo img{
+position: relative;
+left: 40px;
+height: 20px;
+width: auto;
+}
+
+.menu{
+margin-left: 300px;
+display: flex;
+gap: 30px;
+}
+
+.visual-area{
+position: relative;
+
+
+}
+.triangle{
+    text-align: left;
+    vertical-align: top;
+}
+
+
+.engenea{
+    position: absolute;
+    top:150px;
+    left:500px;
+    z-index: 3;
+}
+
+.orange{
+    position: relative;
+    left:-80px;
+    z-index:1;
+}
+
+.boy{
+height: 650px;
+position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.text{
+position: absolute;
+top: 30%;
+left:5%;
+z-index:4;
+font-weight: bold; 
+  font-size: 40px;
+}
+
+.counseling-page {
+position: relative;
+top: -150px;
+right: -90px;
+  
+}
+
+.counseling-page a {
+display: inline-block;
+background-color: #f7931e;
+color: white;
+padding: 1em 4em;
+border-radius: 9999px;
+text-decoration: none;
+font-weight: bold;
+font-size: 1rem;
+text-align: center;
+
+}
+
+.※調査 {
+font-size: 0.75rem;
+color: #666;
+position: relative;
+top: -130px;
+right: -90px;
+}
+
+
+.box1{
+
+display: flex;
+ justify-content: center;
+ margin: 40px 60px;
+ padding: 40px 20px;
+ gap: 20px;
+
+}
+
+ .box2{
+
+text-align: center;
+background-color: #f4f5f7;
+border-radius:8px;
+padding: 30px 20px;
+width: 30%;
+
+}
+
+.box2 p{
+font-weight: bold;
+font-size: 16px;
+color: #000;
+
+}
+
+.box2 img{
+width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+
+}
+
+.box-title{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+
+}
+
+.box-title::after{
+  
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background-color: #f7931e;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+.title2{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.title2::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background-color: #f7931e;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+.wrapper {
+ max-width: 1000px;
+  margin: 2rem auto;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.container{
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.image-area{
+  flex: 1;
+  min-width: 300px;
+
+}
+
+.image-area img{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.text-area{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  min-width: 300px;
+  
+}
+
+.boxx{
+  background-color: #f4f5f7;
+  padding: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-olor 0.3sease;
+}
+
+.boxx:hover{
+  background-color: #ccc;
+}
+
+.title3{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.title3::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background-color: #f7931e;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+.企業説明{
+ text-align: center;
+ font-size: 1rem;
+}
+
+
+.company-infomation{
+  background-color: #fff; padding: 2rem; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  display: flex;
+}
+
+.line{
+  width: 1px;
+  height: 300px;
+  background-color: #ccc;
+
+}
+
+.company-logos {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  gap: 1.5rem;
+  max-width: 800px;
+  margin: 0 auto 3rem auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.company-logos img {
+  max-width: 100px;
+  height: auto;
+  filter: grayscale(0%);
+}
+
+.merits {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: "Hiragino Sans", sans-serif;
+  color: #000;
+}
+
+.merits h4 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  color: #000
+}
+
+.merits ol {
+  list-style: none;
+  padding-left: 0;
+  border-radius: 6px;
+  padding: 1rem 1.5rem;
+}
+
+.merits li {
+  position: relative;
+  padding-left: 2.2rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+  color: #000;
+}
+
+.merits li::before {
+  display: block;
+  color: #888; 
+  font-size: 1rem;
+  margin: 0 auto 0.4rem auto;
+}
+
+.merits li:nth-child(1)::before { content: "①"; }
+.merits li:nth-child(2)::before { content: "②"; }
+.merits li:nth-child(3)::before { content: "③"; }
+.merits li:nth-child(4)::before { content: "④"; }
+
+.koe{
+  display: flex;
+  flex-wrap: nowrap;
+  gap:20px;
+  justify-content: space-between;
+  max-width:none;
+}
+
+.卒業生全体, .採用企業全体{
+  display: flex;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.卒業生の声, .採用企業の声{
+  flex:1 1 30%;
+  padding: 2rem;
+  box-sizing:border-box;
+  width: 30%;
+  margin:auto;
+  flex-direction:column;
+  background-color:#f4f5f7;
+  margin-top: 20px;
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+
+.オレンジタグ{
+   position: relative;
+   display: inline-block;
+   background-color: #f7931e;
+    color: white;
+   padding: 1em 4em;
+   border-radius: 9999px;
+   font-weight: bold;
+   font-size: 10px;
+   text-align: center;
+   left: 300px;
+
+}
+
+.黒いタグ{
+   position: relative;
+   display: inline-block;
+   background-color: #080808;
+    color: white;
+   padding: 1em 4em;
+   border-radius: 9999px;
+   font-weight: bold;
+   font-size: 10px;
+   text-align: center;
+   left: 300px;
+ 
+} 
+
+.卒業生情報, .採用企業者情報{
+  display: flex;
+  flex-direction:column;
+  align-items:center;
+  width: 150px;
+  flex-shrink: 0;
+}
+
+.卒業生情報 img, .採用企業者情報 img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.コメント, .コメント2{
+  font-size: 14px;
+  line-height: 1.7;
+  color: #333;
+  flex: 1;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.section-title::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background-color: #f7931e;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+.gakuten-saport{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+.学習サポート, .転職サポート{
+
+  box-sizing: border-box;
+  border-radius: 8px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.黒地ヘッダー, .転職サポートヘッダー{
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+.学習サポート img, .転職サポート img{
+  width: 450px;
+  height: auto;
+}
+
+.komedeta{
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.満足度の丸{
+  position: relative;
+  left: 330px;
+  top:-110px;
+  background-color: #f7931e;
+  color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.komedeta2{
+  font-size: 0.75rem;
+  color: #666;
+}
+
+.満足度の丸2{
+  position: relative;
+  left: 330px;
+  top:-110px;
+  background-color: #f7931e;
+  color: white;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+}
+
+.卒業生への質問{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box ;
+  border-radius: 8px;
+  background-color: #f4f5f7;
+  width: 1000px;
+  height: 150px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:20%;
+}
+
+.left img{
+  position: relative;
+  top: 10px; ;
+  width: 90px;
+  height: auto;
+}
+
+.レビューコメント{
+  font-size: 8px;
+  color: #666;
+  text-align: center;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.right{
+  width: 80%;
+}
+
+.レビュータイトル{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.レビューコメント{
+  font-size: 16px;
+  text-align: center;
+}
+
+.ブログ{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+}
+.ブログ::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background-color: #f7931e;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+.ブログ1{
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+
+
+.blog-card {
+  width: 30%;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-card:hover {
+  transform: scale(1.05);
+}
+
+.メッセージ{
+  display: flex;
+  box-sizing: border-box;
+  background-color: #f4f5f7;
+  width: 75%;
+  align-items: center;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.メッセージ img{
+  width: 400px;
+  height: auto;
+}
+
+.titlehutoji{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.料金{
+  text-align: center;
+  font-size: 40px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  position: relative;
+
+}
+
+.料金::after{
+  content: "";
+  display: block;
+  height: 4px;
+  width: 80px;
+  background-color: #f7931e;
+  margin: 16px auto 0;
+  border-radius: 2px;
+}
+
+.course-card {
+  display: flex;
+  align-items: center;
+  background-color: #f8f9fb;
+  padding: 20px 30px;
+  border-radius: 8px;
+  max-width: 1000px;
+  margin: 20px auto;
+  gap: 30px;
+}
+
+.course-title-box {
+  border: 2px solid;
+  border-image: linear-gradient(to right, #ff8c00, #ffa500) 1;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  min-width: 180px;
+}
+
+.course-description{
+  color: #f7931e;
+}
+
+
+.料金1{
+  box-sizing: border-box;
+  background-color: #f4f5f7;
+}
+.kyuhukin {
+  background-color: #fdfdfd;
+  color: #333;
+  margin: 40px auto;
+  max-width: 960px;
+  padding: 20px;
+}
+
+
+.kyuhukin-title {
+  background-color: #009e59;
+  color: white;
+  padding: 12px 16px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 4px;
+}
+
+
+.kyuhukin-setumei {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.kyuhukin-setumei img {
+  width: 200px;
+  height: auto;
+}
+
+.setumei-text{
+  flex: 1;
+}
+
+.setumei-text p{
+ font-size: 14px;
+  line-height: 1.6;
+  margin: 0 0 10px 0;
+}
+
+
+.給付金制度のコメント{
+  font-size: 15px;
+}
+
+.四角{
+  box-sizing: border-box;
+  border:solid 1px #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 13px;
+}
+
+.course-price{
+  box-sizing: border-box;
+  background-color: #fcfaf5;
+}
+
+.rallis-title{
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.price-group2 {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.group2 img{
+  width: 100px;
+  height: auto;
+}
+
+.off-img{
+  width: 100px;
+  height: auto;
+}
+
+
+.saidaisikyu{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top :1px solid#009e59; 
+  border-bottom: 1px solid #009e59;
+  padding:10px 0;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  color: #009e59;
+
+}
+
+.ryoukin-conditions{
+  font-weight: 300;
+  display: table;
+  margin:0 auto ;
+}
+
+.jyouken{
+  box-sizing: border-box;
+  background-color: #f4f5f7;
+}
+
+.jyouken1{
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.counseling-page2{
+  position: relative;
+  left:500px
+}
+.counseling-page2 a {
+  display: inline-block;
+  background-color: #f7931e;
+  color: white;
+  padding: 1em 4em;
+   border-radius: 9999px;
+  text-decoration: none;
+  font-weight:bold;
+  justify-content: center;
+
+}
+
+.footer{
+  background-color: #f7931e;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.footer-inner{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-logo{
+  width: 250px;
+  height: auto;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.kaisya{
+  margin-left: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.acsess{
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.social-icons img{
+ gap: 10px;
+ width: 100px;
+ height: auto;
+ object-fit: cover;
+ margin-left: 20px;
+}
+
+.copyright{
+  font-size: 10px;
+  margin-left: 20px;
+}
+
+.footer-col{
+  position: relative;
+}
+
+.footer-col a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer-col p{
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.footer-links a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.footer-mascot img{
+  position: absolute;
+  right: 20px;
+  width: 150px;
+  height: auto;
+}
+
+
+
